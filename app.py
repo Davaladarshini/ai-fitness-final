@@ -456,5 +456,10 @@ def start_workout_page():
         return redirect(url_for('build_workout'))
     return render_template('start_workout.html', workout_data=workout_data)
 
+@app.route('/webcam_options')
+def webcam_options():
+    """Renders the webcam selection options page."""
+    return render_template('webcam_options.html')
+
 if __name__ == '__main__':
     app.run(debug=True)

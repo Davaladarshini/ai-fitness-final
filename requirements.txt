@@ -4,3 +4,5 @@ requests
 textblob
 openai
 python-dotenv
+opencv-python 
+numpy
